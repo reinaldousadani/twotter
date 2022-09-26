@@ -1,7 +1,7 @@
 version: "3"
 services:
   api-server:
-    image: budget-twitter-backend
+    image: twotter-server
     ports:
       - "1337:1337"
     networks:
